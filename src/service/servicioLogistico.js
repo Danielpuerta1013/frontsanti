@@ -1,7 +1,7 @@
 export async function consultarLogistica() {
     //1 construir el endpoint
    
-    const URL = "http://localhost/logistica";
+    const URL = "http://localhost:8000/consultarLogisticas";
     //2. activar la peticion
    
     let peticion={
